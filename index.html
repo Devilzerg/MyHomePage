@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여행 블로그</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/back.jpg" alt="여행 블로그 배너" class="banner-img">
+        <h1>나의 여행 블로그</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="ai.html">소개</a></li>
+                <li><a href="#posts">블로그</a></li>
+                <li><a href="#contact">연락처</a></li>
+                <li><a href="#itinerary">일정표</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>환영합니다!</h2>
+        <p>여행의 멋진 순간들을 공유하는 공간입니다. 다양한 여행지의 이야기와 사진을 확인해 보세요.</p>
+    </section>
+
+    <section id="about">
+        <h2>블로그 소개</h2>
+        <p>저는 여행을 사랑하는 블로거입니다. 제 블로그에서는 제가 방문한 다양한 여행지와 그곳에서의 경험을 공유합니다.</p>
+    </section>
+
+    <section id="posts">
+        <h2>최근 블로그 글</h2>
+        <div class="post">
+            <h3>파리 여행기</h3>
+            <p>파리에서의 멋진 하루를 기록한 포스트입니다. 에펠탑과 루브르 박물관을 방문했습니다.</p>
+        </div>
+        <div class="post">
+            <h3>도쿄 탐방기</h3>
+            <p>도쿄의 다양한 매력을 소개합니다. 시부야, 신주쿠, 그리고 아사쿠사까지!</p>
+        </div>
+    </section>
+
+    <section id="itinerary">
+        <h2>일주일 여행 일정표</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>날짜</th>
+                    <th>활동</th>
+                    <th>장소</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1일차</td>
+                    <td>출발 및 체크인</td>
+                    <td>호텔</td>
+                </tr>
+                <tr>
+                    <td>2일차</td>
+                    <td>시티 투어</td>
+                    <td>관광 명소</td>
+                </tr>
+                <tr>
+                    <td>3일차</td>
+                    <td>박물관 방문</td>
+                    <td>박물관</td>
+                </tr>
+                <tr>
+                    <td>4일차</td>
+                    <td>쇼핑</td>
+                    <td>쇼핑 거리</td>
+                </tr>
+                <tr>
+                    <td>5일차</td>
+                    <td>자연 탐방</td>
+                    <td>국립 공원</td>
+                </tr>
+                <tr>
+                    <td>6일차</td>
+                    <td>미술관 방문</td>
+                    <td>미술관</td>
+                </tr>
+                <tr>
+                    <td>7일차</td>
+                    <td>귀국</td>
+                    <td>공항</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>연락처</h2>
+        <p>질문이나 제안이 있으시면 아래의 양식을 통해 연락해 주세요.</p>
+        <form id="contact-form">
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">이메일:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">메시지:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">보내기</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 나의 여행 블로그. 모든 권리 보유.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
